@@ -1,0 +1,124 @@
+{
+    "topics": {
+        "random": {
+            "flags": [],
+            "keywords": []
+        }
+    },
+    "gambits": {
+        "Y1ZcxQri": {
+            "topic": "random",
+            "options": {
+                "isQuestion": false,
+                "qType": false,
+                "isConditional": false,
+                "qSubType": false,
+                "filter": false
+            },
+            "replys": [
+                "M0odtqrb"
+            ],
+            "redirect": null,
+            "trigger": "~emohello",
+            "raw": "~emohello"
+        },
+        "qpH0GT3W": {
+            "topic": "random",
+            "options": {
+                "isQuestion": false,
+                "qType": false,
+                "isConditional": false,
+                "qSubType": false,
+                "filter": false
+            },
+            "replys": [
+                "9dwNxubv"
+            ],
+            "redirect": null,
+            "trigger": "(?:\\s*my name is\\s*|\\s*)(\\S+(?:\\s+\\S+){0})",
+            "raw": "[my name is] *1"
+        },
+        "M31eXmPX": {
+            "topic": "random",
+            "options": {
+                "isQuestion": false,
+                "qType": false,
+                "isConditional": false,
+                "qSubType": false,
+                "filter": false,
+                "conversations": [
+                    "9dwNxubv"
+                ]
+            },
+            "replys": [
+                "xFpQE79m"
+            ],
+            "redirect": null,
+            "trigger": "~yes",
+            "raw": "~yes"
+        },
+        "FPuYm5qm": {
+            "topic": "random",
+            "options": {
+                "isQuestion": false,
+                "qType": false,
+                "isConditional": false,
+                "qSubType": false,
+                "filter": false,
+                "conversations": [
+                    "9dwNxubv"
+                ]
+            },
+            "replys": [
+                "yJrLQJYx"
+            ],
+            "redirect": null,
+            "trigger": "(?:.*?)",
+            "raw": "*"
+        },
+        "E5KEIIZy": {
+            "topic": "random",
+            "options": {
+                "isQuestion": false,
+                "qType": false,
+                "isConditional": false,
+                "qSubType": false,
+                "filter": false
+            },
+            "replys": [
+                "W9nKU90S"
+            ],
+            "redirect": null,
+            "trigger": "(?:.*?)",
+            "raw": "*"
+        },
+        "aXrqpnKJ": {
+            "topic": "random",
+            "options": {
+                "isQuestion": false,
+                "qType": false,
+                "isConditional": false,
+                "qSubType": false,
+                "filter": false
+            },
+            "replys": [
+                "BxtFWBS0"
+            ],
+            "redirect": null,
+            "trigger": "(?:.*?)",
+            "raw": "*"
+        }
+    },
+    "convos": {},
+    "replys": {
+        "M0odtqrb": "Hi! What's your name?",
+        "9dwNxubv": "So your first name is <cap1>?",
+        "xFpQE79m": "Okay good.",
+        "yJrLQJYx": "Oh, lets try this again... {@~emohello}",
+        "W9nKU90S": "I don't get it. {@~emohello}",
+        "BxtFWBS0": "Let's talk about something else now. {topic=new_topic}"
+    },
+    "checksums": {
+        "./topics/main.ss": "e5c3c679b9afee6a1208c624a8422935a7b12dbc"
+    }
+}

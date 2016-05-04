@@ -6,7 +6,7 @@
         }
     },
     "gambits": {
-        "Y1ZcxQri": {
+        "U71XjXJx": {
             "topic": "random",
             "options": {
                 "isQuestion": false,
@@ -16,13 +16,13 @@
                 "filter": false
             },
             "replys": [
-                "M0odtqrb"
+                "Lh7Q8zA7"
             ],
             "redirect": null,
-            "trigger": "~emohello",
-            "raw": "~emohello"
+            "trigger": "~emohello(?:.*\\s?)",
+            "raw": "~emohello *"
         },
-        "qpH0GT3W": {
+        "lhye60PX": {
             "topic": "random",
             "options": {
                 "isQuestion": false,
@@ -32,13 +32,13 @@
                 "filter": false
             },
             "replys": [
-                "9dwNxubv"
+                "MXMO77kH"
             ],
             "redirect": null,
-            "trigger": "(?:\\s*my name is\\s*|\\s*)(\\S+(?:\\s+\\S+){0})",
-            "raw": "[my name is] *1"
+            "trigger": "(?:.*?)",
+            "raw": "*"
         },
-        "M31eXmPX": {
+        "D8gnDHoN": {
             "topic": "random",
             "options": {
                 "isQuestion": false,
@@ -47,78 +47,24 @@
                 "qSubType": false,
                 "filter": false,
                 "conversations": [
-                    "9dwNxubv"
+                    "MXMO77kH"
                 ]
             },
             "replys": [
-                "xFpQE79m"
+                "TlKBVgUM"
             ],
             "redirect": null,
-            "trigger": "~yes",
-            "raw": "~yes"
-        },
-        "FPuYm5qm": {
-            "topic": "random",
-            "options": {
-                "isQuestion": false,
-                "qType": false,
-                "isConditional": false,
-                "qSubType": false,
-                "filter": false,
-                "conversations": [
-                    "9dwNxubv"
-                ]
-            },
-            "replys": [
-                "yJrLQJYx"
-            ],
-            "redirect": null,
-            "trigger": "(?:.*?)",
-            "raw": "*"
-        },
-        "E5KEIIZy": {
-            "topic": "random",
-            "options": {
-                "isQuestion": false,
-                "qType": false,
-                "isConditional": false,
-                "qSubType": false,
-                "filter": false
-            },
-            "replys": [
-                "W9nKU90S"
-            ],
-            "redirect": null,
-            "trigger": "(?:.*?)",
-            "raw": "*"
-        },
-        "aXrqpnKJ": {
-            "topic": "random",
-            "options": {
-                "isQuestion": false,
-                "qType": false,
-                "isConditional": false,
-                "qSubType": false,
-                "filter": false
-            },
-            "replys": [
-                "BxtFWBS0"
-            ],
-            "redirect": null,
-            "trigger": "(?:.*?)",
-            "raw": "*"
+            "trigger": "(\\S+(?:\\s+\\S+){0})",
+            "raw": "*1"
         }
     },
     "convos": {},
     "replys": {
-        "M0odtqrb": "Hi! What's your name?",
-        "9dwNxubv": "So your first name is <cap1>?",
-        "xFpQE79m": "Okay good.",
-        "yJrLQJYx": "Oh, lets try this again... {@~emohello}",
-        "W9nKU90S": "I don't get it. {@~emohello}",
-        "BxtFWBS0": "Let's talk about something else now. {topic=new_topic}"
+        "Lh7Q8zA7": "Hi, good to see you!",
+        "MXMO77kH": "What is your favorite color?",
+        "TlKBVgUM": "<cap> is my favorite color, too!"
     },
     "checksums": {
-        "./topics/main.ss": "e5c3c679b9afee6a1208c624a8422935a7b12dbc"
+        "./topics/main.ss": "a8ac6cf03373f5be2cd4106afe8d262a34440eeb"
     }
 }

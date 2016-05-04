@@ -5,7 +5,7 @@ var superscript     = require("superscript");
 var mongoose        = require("mongoose");
 var facts           = require("sfacts");
 var factSystem      = facts.create('telnetFacts');
-mongoose.connect('mongodb://psylocke-2.local:27017/superscriptDB');
+mongoose.connect('mongodb://localhost:27017/superscriptDB');
 
 var options = {};
 var sockets = [];

@@ -1,21 +1,8 @@
-+ ~emohello
-- Hi!  What's your name?
++ Hello *
+- Hi, good to see you!
++ *
+- What is your favorite color?
 
-       + [my name is] *1
-       % * what is your name
-       - So your first name is <cap1>?
-
-            + ~yes
-            % so your first name is *
-            - Okay good.
-
-            + *
-            % so your first name is *
-            - Oh, lets try this again... {@~emohello}
-
-        + *
-        % * what is your name
-        - I don't get it. {@~emohello}
-
-    + *
-    - Let's talk about something else now. {topic=new_topic}
+  + *1
+  % what is your favorite color
+  - <cap> is my favorite color, too!
